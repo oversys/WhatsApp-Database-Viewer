@@ -20,22 +20,22 @@ Tool used to view `msgstore.db` (crypt15 E2EE backup only) through a WhatsApp We
 - [x] Show calls with duration
 - [x] Show system messages
 - [x] Display thumbnails from database
-- [] Show reactions
-- [] Show polls
-- [] Style audio and video players like WhatsApp Web
-- [] Style calls like WhatsApp app (not visible in WhatsApp Web)
-- [] Assign unique color to each group participant
-- [] Search for message
-- [] Click on quoted message to jump to it
-- [] Open starred messages list
-- [] Click on message in starred messages list to jump to it
-- [] Click on image to enlarge it
-- [] Add support for user avatars and group icons (not possible currently since my phone is not rooted)
-- [] Get names from `wa.db` (not possible currently since my `wa.db` has no records, only empty tables)
-- [] Find a way to know if user left or joined group since there is no distinction in `msgstore.db`
-- [] Fix overflowing last message text (text-overflow: ellipsis doesn't work with display: flex)
-- [] Fix scrollbar going behind #top-bar
-- [] Probably a lot of other things that I can't remember
+- [ ] Show reactions
+- [ ] Show polls
+- [ ] Style audio and video players like WhatsApp Web
+- [ ] Style calls like WhatsApp app (not visible in WhatsApp Web)
+- [ ] Assign unique color to each group participant
+- [ ] Search for message
+- [ ] Click on quoted message to jump to it
+- [ ] Open starred messages list
+- [ ] Click on message in starred messages list to jump to it
+- [ ] Click on image to enlarge it
+- [ ] Add support for user avatars and group icons (not possible currently since my phone is not rooted)
+- [ ] Get names from `wa.db` (not possible currently since my `wa.db` has no records, only empty tables)
+- [ ] Find a way to know if user left or joined group since there is no distinction in `msgstore.db`
+- [ ] Fix overflowing last message text (text-overflow: ellipsis doesn't work with display: flex)
+- [ ] Fix scrollbar going behind #top-bar
+- [ ] Probably a lot of other things that I can't remember
 
 ## Pull Requests
 Pull requests to fix bugs, implement features, or clean up bad code are welcome and highly appreciated.
