@@ -33,9 +33,12 @@ Tool used to view `msgstore.db` (crypt15 E2EE backup only) through a WhatsApp We
 - [ ] Add support for user avatars and group icons (not possible currently since my phone is not rooted)
 - [ ] Get names from `wa.db` (not possible currently since my `wa.db` has no records, only empty tables)
 - [ ] Find a way to know if user left or joined group since there is no distinction in `msgstore.db`
-- [ ] Fix overflowing last message text (text-overflow: ellipsis doesn't work with display: flex)
-- [ ] Fix scrollbar going behind #top-bar
 - [ ] Probably a lot of other things that I can't remember
+
+## Known Issues
+- Overflowing last message text (text-overflow: ellipsis doesn't work with display: flex)
+- Scrollbar going behind #top-bar
+- After reaching beginning of chat, other chats do not load (temp solution: refresh page)
 
 ## Pull Requests
 Pull requests to fix bugs, implement features, or clean up bad code are welcome and highly appreciated.
